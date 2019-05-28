@@ -4,6 +4,12 @@ html {
     font-size: 16px;
     background-color: #fff;
 }
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    color: #333;
+}
+
 /* Header Section */
 
 header {
@@ -11,13 +17,12 @@ header {
     justify-content: space-between;
     align-content: center;
     text-transform: uppercase;
-    color: #333;
+    color: #666;
 }
 
 .logo-red {
     background-color: #DF2624;
     color: #fff;
-    font-weight: 300;
 }
 
 ul li {
@@ -29,12 +34,72 @@ ul li {
 #banner {
     background-color: #DF2624;
     color: #FFF;
-    text-transform: uppercase;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-h3 {
+#banner h1 {
+    color: #FFF;
+}
+
+#banner h3 {
+    color: #FFF;
     font-weight: 100;
 }
+
+/* About Section */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    color: #666;
+    text-align: center;
+}
+
+/* Contact Section */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-transform: uppercase;
+    color: #666;
+}
+
+input[type=text] {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: #DF2624;
+    color: #FFF;
+    text-transform: uppercase;
+    border-radius: 5%;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #333;
+    text-align: center;
+}
+ footer p {
+     color: #FFF;
+ }

@@ -24,6 +24,8 @@ h2 {
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.03rem;
+    line-height: 0;
+    padding-top: 3%;
 }
 
 h3 {
@@ -34,6 +36,8 @@ p {
     color: #666;
     text-align: center;
     font-size: 0.52rem;
+    letter-spacing: 0.01rem;
+    line-height: 2.25;
 }
 
 /* Header Section */
@@ -71,7 +75,6 @@ nav {
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 7%;
-    /* max-width: 100%; */
 }
 
 ul {
@@ -86,7 +89,7 @@ ul li {
     padding: 0 2.5%;
 }
 
-/* Banner */
+/* Banner Section */
 
 #banner {
     background-color: #DF2624;
@@ -117,6 +120,12 @@ ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 59%;
+    margin: auto;
+}
+
+#about p {
+    margin-bottom: 7.5%;
 }
 
 /* Contact Section */
@@ -125,30 +134,45 @@ ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 61%;
+    margin: auto;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin-top: 1.7%;
 }
 
 label {
     text-transform: uppercase;
     color: #666;
+    font-size: 0.5rem;
+    letter-spacing: 0.03rem;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 input[type=text] {
     border-top: none;
     border-right: none;
     border-left: none;
+    font-size: 1rem;
 }
 
 input[type=submit] {
     border: none;
     background-color: #DF2624;
     color: #FFF;
+    font-size: 0.55rem;
+    letter-spacing: -0.015;
     text-transform: uppercase;
-    border-radius: 5%;
+    border-radius: 500px;
+    width: 18%;
+    padding: 1.2em;
+    margin-top: 3.5%;
+    margin-bottom: 7%;
 }
 
 /* Footer Section */
@@ -156,7 +180,12 @@ input[type=submit] {
 footer {
     background-color: #333;
     text-align: center;
+    height: 4.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
  footer p {
      color: #FFF;
  }

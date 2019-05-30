@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="ResetCSS.css" rel="stylesheet" type="text/css">
         <link href="stylesheet.css" rel="stylesheet" type="text/css">
-        <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,900&display=swap" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
         <title>Red Academy Landing Page</title> 
     </head> 
@@ -14,9 +14,9 @@
         </div>
         <nav>
             <ul> 
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
             </ul>
         </nav>
     </header> 
@@ -36,11 +36,11 @@
         <section id="contact">
             <h2>Get in touch</h2>
             <p>Lorem ipsum dolor sit amet, nec id omittam consulatu, eu summo ceteros his. Vis porro evertitur an, no nam solet voluptua.</p>
-            <form >
-                <label >  Your name </label>
-                <input type="text">
-                <label >  Your Email </label>
-                <input type="text">
+            <form action="#" method="POST">
+                <label for="your-name">  Your name </label>
+                <input type="text" name="user-name" id="your-name">
+                <label for="your-email">  Your Email </label>
+                <input type="text" name="user-email" id="your-email">
                 <input type="submit" value="Get in touch">
             </form>
         </section>

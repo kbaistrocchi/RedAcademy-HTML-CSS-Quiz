@@ -10,3 +10,5 @@ I edited all code in Visual Studio Code and tested changes with Chrome dev tools
 In an attempt to get accurate spacing and font sizing I downloaded a trial version of xScope and tried out the Ruler, Loupe and Overlay tools.
 
 I also tried Chrome's PixelPerfect browser extension to overlay screenshots of the .jpg file on top of my working site. This was probably the most helpful way to find font-sizes and spacing.
+
+I did not include a .gitignore file as I was unsure which files were to be ignored.

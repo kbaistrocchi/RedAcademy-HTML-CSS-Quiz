@@ -3,11 +3,37 @@ html {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     background-color: #fff;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
 }
 
 h1, h2, h3 {
     text-transform: uppercase;
     color: #333;
+}
+
+h1 {
+    font-size: 2.3rem;
+    letter-spacing: -0.015rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 0.03rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+p {
+    color: #666;
+    text-align: center;
+    font-size: 0.52rem;
 }
 
 /* Header Section */
@@ -18,15 +44,46 @@ header {
     align-content: center;
     text-transform: uppercase;
     color: #666;
+    width: 100%;
+    height: 3.5em;
+    line-height: 0.5;
+}
+
+#logo_area {
+    margin-left: 8.3%;
+    max-width: 100%;
+}
+
+header h3 {
+    color: #666;
+    font-weight: 500;
+    letter-spacing: 0.09rem;
+    white-space: nowrap;
 }
 
 .logo-red {
     background-color: #DF2624;
     color: #fff;
+    padding: 2% 5%;
+}
+
+nav {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 8.3%;
+    /* max-width: 100%; */
+}
+
+ul {
+    padding-left: 0;
+    width: 100%;
+    white-space: nowrap;
 }
 
 ul li {
-    display: inline;
+    display: inline-block;
+    font-size: 0.48rem;
+    padding: 0 2.5%;
 }
 
 /* Banner */
@@ -38,6 +95,7 @@ ul li {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding: 11.7% 0;
 }
 
 #banner h1 {
@@ -55,11 +113,6 @@ ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-p {
-    color: #666;
-    text-align: center;
 }
 
 /* Contact Section */
